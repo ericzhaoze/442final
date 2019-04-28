@@ -1,0 +1,7 @@
+To run train:
+python3 train.py --dataroot /path/to/dataset
+
+To run test:
+python3 test.py --dataroot /path/to/dataset
+
+The dataset folder should have two subfolders, named A and B, inside each they should have train/val/test subfolders.
